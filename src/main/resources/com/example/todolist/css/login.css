@@ -1,0 +1,31 @@
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #ffffff;
+}
+
+Label, TextField, PasswordField {
+    -fx-text-fill: #ffffff;
+}
+
+TextField, PasswordField {
+    -fx-background-color: #444444;
+    -fx-border-color: #666666;
+}
+
+.button {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-color: #5a5a5a;
+}
+
+.button:hover {
+    -fx-background-color: #666666;
+}
+
+RegisterButton {
+    -fx-color: #006ec0;
+}
